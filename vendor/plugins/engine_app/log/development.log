@@ -1,0 +1,754 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 16:59:57) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:00:26) [GET]
+
+ActionController::RoutingError (No route matches "/other_controller/index" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:00:28) [GET]
+
+ActionController::RoutingError (No route matches "/other_controller/index.html" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:00:56) [GET]
+
+ActionController::RoutingError (No route matches "/other_controller/index.html" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:00:57) [GET]
+
+ActionController::RoutingError (No route matches "/other_controller/index.html" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:01:00) [GET]
+
+ActionController::RoutingError (No route matches "/index.html" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:01:02) [GET]
+  Parameters: {"page"=>"index"}
+
+NameError (uninitialized constant OtherControllerController):
+  activesupport (2.3.0) lib/active_support/dependencies.rb:443:in `load_missing_constant'
+  activesupport (2.3.0) lib/active_support/dependencies.rb:80:in `const_missing'
+  activesupport (2.3.0) lib/active_support/dependencies.rb:92:in `const_missing'
+  activesupport (2.3.0) lib/active_support/inflector.rb:359:in `constantize'
+  activesupport (2.3.0) lib/active_support/inflector.rb:358:in `each'
+  activesupport (2.3.0) lib/active_support/inflector.rb:358:in `constantize'
+  activesupport (2.3.0) lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:439:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (19.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:01:15) [GET]
+  Parameters: {"page"=>"index"}
+
+NameError (uninitialized constant OtherControllerController):
+  activesupport (2.3.0) lib/active_support/dependencies.rb:443:in `load_missing_constant'
+  activesupport (2.3.0) lib/active_support/dependencies.rb:80:in `const_missing'
+  activesupport (2.3.0) lib/active_support/dependencies.rb:92:in `const_missing'
+  activesupport (2.3.0) lib/active_support/inflector.rb:359:in `constantize'
+  activesupport (2.3.0) lib/active_support/inflector.rb:358:in `each'
+  activesupport (2.3.0) lib/active_support/inflector.rb:358:in `constantize'
+  activesupport (2.3.0) lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:439:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendered rescues/_trace (19.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:01:25) [GET]
+  Parameters: {"page"=>"index"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:01:26) [GET]
+  Parameters: {"page"=>"index"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:01:27) [GET]
+  Parameters: {"page"=>"index"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:01:29) [GET]
+
+ActionController::RoutingError (No route matches "/index.html" with {:method=>:get}):
+  actionpack (2.3.0) lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:437:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:01:30) [GET]
+  Parameters: {"page"=>"index"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:01:43) [GET]
+  Parameters: {"page"=>"index"}
+
+NoMethodError (undefined method `camelize' for :other:Symbol):
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:439:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+/!\ FAILSAFE /!\  Sat Feb 28 17:01:44 -0600 2009
+  Status: 500 Internal Server Error
+  
+ActionView::TemplateError (undefined method `humanize' for :other:Symbol) on line #4 of /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.0/lib/action_controller/templates/rescues/diagnostics.erb:
+1: <h1>
+2:   <%=h @exception.class.to_s %>
+3:   <% if request.parameters['controller'] %>
+4:     in <%=h request.parameters['controller'].humanize %>Controller<% if request.parameters['action'] %>#<%=h request.parameters['action'] %><% end %>
+5:   <% end %>
+6: </h1>
+7: <pre><%=h @exception.clean_message %></pre>
+
+    actionpack (2.3.0) lib/action_controller/templates/rescues/diagnostics.erb:4
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `send'
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `render'
+    actionpack (2.3.0) lib/action_view/template.rb:182:in `render_template'
+    actionpack (2.3.0) lib/action_view/base.rb:247:in `render'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:128:in `rescue_action_locally'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:146:in `rescue_action_without_handler'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:74:in `rescue_action'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+    actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:65:in `call_with_exception'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:68:in `dispatch'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+    actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+    actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+    actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+    rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+    rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+    rails (2.3.0) lib/commands/server.rb:100
+
+
+    On line #4 of /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.0/lib/action_controller/templates/rescues/diagnostics.erb
+
+    1: <h1>
+    2:   <%=h @exception.class.to_s %>
+    3:   <% if request.parameters['controller'] %>
+    4:     in <%=h request.parameters['controller'].humanize %>Controller<% if request.parameters['action'] %>#<%=h request.parameters['action'] %><% end %>
+    5:   <% end %>
+    6: </h1>
+    7: <pre><%=h @exception.clean_message %></pre>
+
+    actionpack (2.3.0) lib/action_controller/templates/rescues/diagnostics.erb:4
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `send'
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `render'
+    actionpack (2.3.0) lib/action_view/template.rb:182:in `render_template'
+    actionpack (2.3.0) lib/action_view/base.rb:247:in `render'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:128:in `rescue_action_locally'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:146:in `rescue_action_without_handler'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:74:in `rescue_action'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+    actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:65:in `call_with_exception'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:68:in `dispatch'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+    actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+    actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+    actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+    rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+    rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+    rails (2.3.0) lib/commands/server.rb:100
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-28 17:01:44) [GET]
+  Parameters: {"page"=>"index"}
+
+NoMethodError (undefined method `camelize' for :other:Symbol):
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:439:in `recognize'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:432:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+/!\ FAILSAFE /!\  Sat Feb 28 17:01:44 -0600 2009
+  Status: 500 Internal Server Error
+  
+ActionView::TemplateError (undefined method `humanize' for :other:Symbol) on line #4 of /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.0/lib/action_controller/templates/rescues/diagnostics.erb:
+1: <h1>
+2:   <%=h @exception.class.to_s %>
+3:   <% if request.parameters['controller'] %>
+4:     in <%=h request.parameters['controller'].humanize %>Controller<% if request.parameters['action'] %>#<%=h request.parameters['action'] %><% end %>
+5:   <% end %>
+6: </h1>
+7: <pre><%=h @exception.clean_message %></pre>
+
+    actionpack (2.3.0) lib/action_controller/templates/rescues/diagnostics.erb:4
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `send'
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `render'
+    actionpack (2.3.0) lib/action_view/template.rb:182:in `render_template'
+    actionpack (2.3.0) lib/action_view/base.rb:247:in `render'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:128:in `rescue_action_locally'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:146:in `rescue_action_without_handler'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:74:in `rescue_action'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+    actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:65:in `call_with_exception'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:68:in `dispatch'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+    actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+    actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+    actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+    rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+    rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+    rails (2.3.0) lib/commands/server.rb:100
+
+
+    On line #4 of /opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.0/lib/action_controller/templates/rescues/diagnostics.erb
+
+    1: <h1>
+    2:   <%=h @exception.class.to_s %>
+    3:   <% if request.parameters['controller'] %>
+    4:     in <%=h request.parameters['controller'].humanize %>Controller<% if request.parameters['action'] %>#<%=h request.parameters['action'] %><% end %>
+    5:   <% end %>
+    6: </h1>
+    7: <pre><%=h @exception.clean_message %></pre>
+
+    actionpack (2.3.0) lib/action_controller/templates/rescues/diagnostics.erb:4
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `send'
+    actionpack (2.3.0) lib/action_view/renderable.rb:35:in `render'
+    actionpack (2.3.0) lib/action_view/template.rb:182:in `render_template'
+    actionpack (2.3.0) lib/action_view/base.rb:247:in `render'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:128:in `rescue_action_locally'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:146:in `rescue_action_without_handler'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:74:in `rescue_action'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+    actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+    actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+    actionpack (2.3.0) lib/action_controller/rescue.rb:65:in `call_with_exception'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:68:in `dispatch'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+    activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+    activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+    actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+    actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+    actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+    actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+    actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+    rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+    rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+    rails (2.3.0) lib/commands/server.rb:100
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:01:49) [GET]
+  Parameters: {"page"=>"index"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:01:50) [GET]
+  Parameters: {"page"=>"index"}
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  actionpack (2.3.0) lib/action_controller/filters.rb:617:in `call_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  actionpack (2.3.0) lib/action_controller/rescue.rb:154:in `perform_action_without_flash'
+  actionpack (2.3.0) lib/action_controller/flash.rb:141:in `perform_action'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `send'
+  actionpack (2.3.0) lib/action_controller/base.rb:523:in `process_without_filters'
+  actionpack (2.3.0) lib/action_controller/filters.rb:606:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:391:in `process'
+  actionpack (2.3.0) lib/action_controller/base.rb:386:in `call'
+  actionpack (2.3.0) lib/action_controller/routing/route_set.rb:433:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:65:in `dispatch'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:88:in `_call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:59:in `initialize'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:29:in `call'
+  activerecord (2.3.0) lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:9:in `cache'
+  activerecord (2.3.0) lib/active_record/query_cache.rb:28:in `call'
+  actionpack (2.3.0) lib/action_controller/params_parser.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rewindable_input.rb:25:in `call'
+  actionpack (2.3.0) lib/action_controller/session/cookie_store.rb:93:in `call'
+  actionpack (2.3.0) lib/action_controller/failsafe.rb:11:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `synchronize'
+  actionpack (2.3.0) lib/action_controller/rack_ext/lock.rb:15:in `call'
+  actionpack (2.3.0) lib/action_controller/dispatcher.rb:83:in `call'
+  rails (2.3.0) lib/rails/rack/static.rb:27:in `call'
+  rails (2.3.0) lib/rails/rack/log_tailer.rb:17:in `call'
+  rails (2.3.0) lib/commands/server.rb:100
+
+Rendering rescues/layout (not_found)
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:02:09) [GET]
+  Parameters: {"page"=>"index"}
+Rendering other/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/index]
+
+
+Processing OtherController#index (for 127.0.0.1 at 2009-02-28 17:03:48) [GET]
+  Parameters: {"page"=>"index"}
+Rendering template within layouts/application
+Rendering other/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/index]
